@@ -1,0 +1,243 @@
+.back-btn,
+.hello-hero__license {
+  display: none;
+}
+.hello-hero {
+  padding: 16rem 0 0;
+  max-width: 128rem;
+  margin: 0 auto;
+  /* height: 100%;
+  min-height: calc(100vh - 4.8rem); */
+  display: flex;
+  flex-direction: column;
+}
+.hello-hero__right {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.hello-hero__left {
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  margin-bottom: 7.4rem;
+}
+.hello-hero__subtext {
+  max-width: 26rem;
+}
+.hello-hero__form {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.hello-hero__form-top {
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  margin-bottom: 1.4rem;
+}
+.hello-hero__btn-wrapper {
+  background-color: var(--sub-bg-color);
+  padding: 1.8rem 3.2rem 6.4rem;
+  flex-grow: 1;
+}
+.hello-hero__input-block {
+  margin-bottom: 4rem;
+}
+.hello-hero__input-box,
+.hello-hero__textarea-box {
+  position: relative;
+}
+.input,
+.hello-hero__textarea {
+  width: 100%;
+  background-color: transparent;
+  height: 5.2rem;
+  border: solid 0.1rem var(--dark-gray-color);
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.43;
+  color: var(--sub-text-color);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.input-error {
+  border: solid 0.1rem var(--accent-color);
+}
+.hello-hero__textarea {
+  height: 11.2rem;
+  padding-top: 1.6rem;
+  resize: none;
+}
+.hello-hero__input-box:first-child {
+  margin-bottom: 4rem;
+}
+::-webkit-input-placeholder {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.43;
+  color: var(--dark-gray-color);
+}
+::-moz-placeholder {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.43;
+  color: var(--dark-gray-color);
+}
+:-moz-placeholder {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.43;
+  color: var(--dark-gray-color);
+}
+:-ms-input-placeholder {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.43;
+  color: var(--dark-gray-color);
+}
+.label,
+.textarea-label {
+  position: absolute;
+  left: 1.2rem;
+  top: -0.75rem;
+  display: inline-block;
+  background-color: var(--sub-bg-color);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.33;
+  color: var(--sub-text-color);
+}
+.label-span {
+  color: var(--accent-color);
+}
+.hello-hero__btn {
+  display: block;
+  width: 14rem;
+  height: 4.6rem;
+  border: none;
+  background-color: var(--main-bg-color);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: 0.24rem;
+  text-align: center;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .hello-hero {
+    padding: 13.4rem 8rem 25.6rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .hello-hero__left {
+    padding-top: 8.8rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+    margin-right: 3rem;
+  }
+  .hello-hero__form-top {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .back-btn {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 9.6rem;
+    background-color: var(--sub-bg-color);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 7.6rem;
+    height: 16.4rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.43;
+    color: var(--sub-text-color);
+  }
+  .hello-back-btn {
+    padding-top: 3.2rem;
+    justify-content: flex-start;
+  }
+  .hello-back-btn .back-btn__icon {
+    position: absolute;
+    top: 6.8rem;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    margin-top: 0;
+  }
+  .hello-back-btn:hover .back-btn__icon,
+  .hello-back-btn:focus .back-btn__icon {
+    top: 5.8rem;
+  }
+  .hello-hero__btn-wrapper {
+    background-color: transparent;
+    padding: 0;
+    flex-grow: 0;
+  }
+  .hello-hero__btn {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 900px) {
+  .hello-hero__form-top {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 3.2rem;
+  }
+  .hello-hero__right {
+    flex-grow: 0;
+    width: 55%;
+    max-width: 53.6rem;
+  }
+
+  .hello-hero__license {
+    position: absolute;
+    left: 9.6rem;
+    bottom: 3.2rem;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.33;
+    color: var(--sub-text-color);
+  }
+
+  .back-btn__icon {
+    margin-top: 1.6rem;
+  }
+
+  .hello-hero__textarea {
+    height: 11.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hello-hero__input-block {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hello-hero__input-box:first-child {
+    margin-bottom: 0;
+    margin-right: 1.6rem;
+  }
+  .hello-hero__input-box {
+    flex-grow: 1;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hello-hero {
+    padding: 20.2rem 28rem 25.6rem 9.6rem;
+  }
+}

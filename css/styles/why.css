@@ -1,0 +1,142 @@
+.why-wrapper .dots {
+  display: none;
+}
+.why-hero {
+  padding: 16rem 3.2rem 0;
+  max-width: 128rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.why-pd-bt {
+  width: 100%;
+  padding-bottom: 9.6rem;
+}
+.why-hero__box {
+  width: 100%;
+}
+.why-hero__top,
+.why-hero__bottom-block {
+  max-width: 21.8rem;
+  /* max-width: 74%; */
+}
+.why-hero__top {
+  margin-bottom: 6.4rem;
+}
+.why-hero__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 27.7rem;
+  margin-left: auto;
+}
+.why-hero__top-text {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.33;
+  font-family: var(--sub-font);
+  margin-bottom: 1.6rem;
+  color: var(--sub-text-color);
+}
+.why-hero__top-span {
+  color: var(--dark-gray-color);
+  position: relative;
+}
+.why-hero__top-span::after {
+  background-color: var(--dark-gray-color);
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 0.1rem;
+  top: 60%;
+  left: 0;
+}
+.why-hero__bottom-span {
+  margin-bottom: 3.6rem;
+}
+@media screen and (min-width: 570px) {
+  /* .why-wrapper {
+    min-height: 100vh;
+    width: 100vw;
+  } */
+  .why-hero__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .why-wrapper .dots {
+    display: block;
+    left: 3.2rem;
+  }
+  .why-hero__left {
+    padding-top: 3.2rem;
+    min-width: 26rem;
+    margin-bottom: 0;
+    width: auto;
+    margin-right: 5rem;
+  }
+  .why-hero__bottom {
+    display: flex;
+    flex-direction: column;
+    max-width: 21.8rem;
+    max-width: 44.4rem;
+    margin-left: auto;
+  }
+  .why-hero__top {
+    /* margin-right: 4rem; */
+    max-width: 44.4rem;
+    margin-bottom: 4.4rem;
+  }
+  .why-hero__right {
+    flex-grow: 1;
+    max-width: ;
+  }
+  .why-hero__bottom-span {
+    margin-bottom: 0;
+    display: block;
+    margin-left: auto;
+    padding-right: 2rem;
+  }
+  .why-hero__bottom-block {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .why-hero__left {
+    margin-right: 4rem;
+  }
+  .why-hero {
+    padding-top: 19rem;
+  }
+  .why-pd-bt {
+    padding-bottom: 15.4rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .why-hero {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .why-hero__right {
+    max-width: 62.8rem;
+  }
+  .why-wrapper .dots {
+    /* display: block; */
+    left: 8rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .why-hero {
+    padding-left: 9.6rem;
+    padding-right: 18.8rem;
+  }
+  .why-hero__left {
+    margin-right: 0;
+  }
+  .why-wrapper .dots {
+    /* display: block; */
+    left: 9.6rem;
+  }
+}

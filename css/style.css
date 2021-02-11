@@ -1,0 +1,27 @@
+@import './utils/normalize.css';
+@import './utils/animations.css';
+@import './utils/component.css';
+@import './libs/swiper-bundle.min.css';
+@import './utils/fonts.css';
+@import './utils/common.css';
+@import './utils/animation.css';
+@import './utils/vars.css';
+@import './styles/header.css';
+@import './styles/home.css';
+@import './styles/whois.css';
+@import './styles/www.css';
+@import './styles/why.css';
+@import './styles/hello.css';
+@import './styles/first-project.css';
+/* @import './styles/project.css'; */
+@import './styles/solution.css';
+@import './styles/challenge.css';
+@import './styles/result.css';
+@import './styles/end.css';
+@import './styles/how.css';
+@import './styles/404.css';
+@import './styles/main.css';
+/* @import './home-page.css';
+@import './animation.css';
+@import './animationElement.css';
+@import './contacts.css'; */

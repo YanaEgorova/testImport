@@ -1,0 +1,25 @@
+.error-hero {
+  padding: 16rem 3.2rem 18.1rem;
+  max-width: 128rem;
+  margin: 0 auto;
+}
+.error-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-img {
+  margin-bottom: 2.9rem;
+}
+.error-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.33;
+  margin-bottom: 6.4rem;
+}
+@media screen and (min-width: 900px) {
+  .error-hero {
+    padding: 22.2rem 3.2rem 19.9rem;
+  }
+}

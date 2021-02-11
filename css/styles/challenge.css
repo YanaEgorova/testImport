@@ -1,0 +1,62 @@
+.challenge-hero {
+  /* min-height: 100%; */
+  padding: 16rem 3.2rem 25.2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.challenge-hero__left {
+  margin: 0 auto;
+  margin-bottom: 6.4rem;
+  max-width: 35.2rem;
+}
+.challenge-hero__box {
+  padding-left: 7.8rem;
+}
+
+.challenge-wrapper .dots {
+  display: block;
+  left: 3.2rem;
+}
+.challenge-hero__img {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 44.4rem;
+  display: block;
+}
+@media screen and (min-width: 900px) {
+  .challenge-hero {
+    min-height: 100%;
+    padding: 9.8rem 1.6rem 16.6rem 3.2rem;
+    max-width: 96.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .challenge-hero__left {
+    margin: 0;
+    padding-top: 6.4rem;
+  }
+  .challenge-wrapper .dots {
+    left: 50%;
+    transform: translate(-60%, 0);
+    -webkit-transform: translate(-60%, 0);
+    -moz-transform: translate(-60%, 0);
+    -ms-transform: translate(-60%, 0);
+    -o-transform: translate(-60%, 0);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .challenge-hero {
+    padding-left: 18.8rem;
+    padding-right: 18.8rem;
+    max-width: 128rem;
+  }
+  .challenge-wrapper .dots {
+    left: 56.1rem;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+  }
+}

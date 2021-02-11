@@ -1,0 +1,94 @@
+.whois-wrapper .dots {
+  display: none;
+}
+.whois-hero {
+  /* height: 100%; */
+  padding: 16rem 3.2rem 0;
+  max-width: 128rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.whois-pd-bt {
+  padding-bottom: 9.6rem;
+  width: 100%;
+}
+.whois-hero__box {
+  width: 100%;
+}
+.whois-hero__left {
+  margin-bottom: 6.4rem;
+  width: 100%;
+}
+.whois-hero__right {
+  width: 100%;
+}
+.whois-hero__subtext {
+  max-width: 22rem;
+}
+.whois-hero__top {
+  margin-bottom: 6.4rem;
+  display: flex;
+}
+.whois-hero__top-left {
+  margin-right: 1.6rem;
+}
+.whois-hero__text {
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .whois-hero {
+    padding-top: 19rem;
+  }
+  .whois-hero__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .whois-pd-bt {
+    padding-bottom: 9rem;
+  }
+  .whois-hero__right {
+    width: 55%;
+    max-width: 44.4rem;
+  }
+  .whois-hero__left {
+    padding-top: 3.2rem;
+    margin-bottom: 0;
+    width: auto;
+  }
+  .whois-hero__top {
+    margin-bottom: 3.2rem;
+  }
+  .whois-wrapper .dots {
+    display: block;
+    left: 3.2rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .whois-hero {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .whois-wrapper .dots {
+    /* display: block; */
+    left: 8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .whois-hero {
+    padding-left: 8rem;
+    padding-right: 12rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .whois-hero {
+    padding-left: 9.6rem;
+    padding-right: 18.8rem;
+  }
+  .whois-wrapper .dots {
+    /* display: block; */
+    left: 9.6rem;
+  }
+}

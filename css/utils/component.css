@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+}
+
+.pt-perspective {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  perspective: 1200px;
+  background-color: red;
+}
+
+.pt-page {
+  width: 100%;
+  min-height: 100%;
+  /* background-color: gray; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  /* overflow: hidden; */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* -webkit-transform: translate3d(0, 0, 0); */
+  -moz-transform: translate3d(0, 0, 0);
+  /* transform: translate3d(0, 0, 0); */
+  /* -webkit-transform-style: preserve-3d; */
+  -moz-transform-style: preserve-3d;
+  /* transform-style: preserve-3d; */
+}
+
+.pt-page-current,
+.no-js .pt-page {
+  visibility: visible;
+  z-index: 1;
+}
+
+.no-js body {
+  overflow: auto;
+}
+
+.pt-page-ontop {
+  z-index: 999;
+}
+
+/* Text Styles, Colors, Backgrounds */
+
+/* .pt-page-1 {
+  background: #0ac2d2;
+}
+
+.pt-page-2 {
+  background: #7bb7fa;
+}
+
+.pt-page-3 {
+  background: #60d7a9;
+}
+
+.pt-page-4 {
+  background: #fdc162;
+}
+
+.pt-page-5 {
+  background: #fd6a62;
+} */
+
+/* .pt-page-6 {
+  background: #f68dbb;
+} */
+
+/* Triggers (menu and button) */
+
+/* .pt-triggers {
+  position: absolute;
+  width: 300px;
+  z-index: 999999;
+  top: 12%;
+  left: 50%;
+  margin-top: 130px;
+  transform: translateX(-50%);
+} */

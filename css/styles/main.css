@@ -1,0 +1,63 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.main-wrap {
+  width: 100%;
+  /* height: 100%; */
+  /* height: auto; */
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+.main-section {
+  width: 100%;
+  min-height: 200vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section-content {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+.home-section {
+  z-index: 6;
+}
+.home-section-content {
+  background-color: var(--main-bg-color);
+}
+.whois-section {
+  z-index: 5;
+}
+/* .whois-section-content {
+  background-color: green;
+} */
+.www-section {
+  z-index: 4;
+}
+.www-section-content {
+  background-color: var(--main-bg-color);
+}
+.why-section {
+  z-index: 3;
+}
+/* .why-section-content {
+  background-color: blue;
+} */
+.how-section {
+  z-index: 2;
+}
+.how-section-content {
+  background-color: var(--main-bg-color);
+}
+.hello-section {
+  z-index: 1;
+}
+.hello-section-content {
+  /* background-color: red; */
+}
